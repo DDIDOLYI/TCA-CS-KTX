@@ -1,7 +1,7 @@
 import random
 
 def welcome_message():
-    print("Welcome to the Number Guessing Game!")
+    print("Welcome to Number Guessing Game!")
     print("I'm thinking of a number between 1 and 100.")
 
 def get_user_guess():
@@ -18,7 +18,7 @@ def check_guess(guess, secret_number):
     elif guess > secret_number:
         print("Too high! Try again.")
     else:
-        print("Congratulations! You guessed it!")
+        print("Congratulations! You got it right!")
 
 def main():
     welcome_message()
